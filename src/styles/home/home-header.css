@@ -1,8 +1,12 @@
 .headerContainer {
   height: 100%;
+  width: 100%;
   display: flex;
+
   flex-direction: column;
   justify-content: center;
+
+
 }
 .home_header_heading {
   font-size: 50px;
@@ -19,7 +23,7 @@
 }
 .homeLocation {
   display: flex;
-  margin-left: 25px;
+  margin-left: 5px;
   width: fit-content;
   background: rgba(255, 255, 255, 0.5);
   padding-left: 10px;

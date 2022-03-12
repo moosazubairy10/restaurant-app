@@ -5,7 +5,7 @@ body {
   overflow-x: hidden;
 }
 .container {
-  width: 1045px;
+  width: 100%;
   margin: 0 auto;
 }
 .container-fluid {

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../../../styles/layout/navbar.css";
 import "../../../styles/simple-grid.css";
 import logo from "../../../Images/logo123.png";
+import navlogo from "../../../Images/navlogo.png";
+import menu from "../../../Images/menu.png";
 import profilePic from "../../../Images/profile.png";
 import * as FaIcons from "react-icons/fa";
 import * as MdIcons from "react-icons/md";
@@ -19,13 +21,13 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <div className="navbar">
-        <img src={logo} alt="" className="navbar_logo" />
+        <img src={navlogo} alt="" className="navbar_logo" />
         {/* <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon> */}
-        <FaIcons.FaBars className="side_navbar_icon" onClick={ToggleSidebar} />
+        <img src={menu} className="side_navbar_icon" onClick={ToggleSidebar} />
       </div>
       <div className={`sidebar ${isOpen == true ? "active" : ""}`}>
         <div className="sd-header">
-          <img src={logo} alt="" className="navbar_logo" />
+          <img src={navlogo} alt="" className="navbar_logo" />
           <div onClick={ToggleSidebar}>
             <MdIcons.MdCancel className="side_navbar_icon" />
           </div>

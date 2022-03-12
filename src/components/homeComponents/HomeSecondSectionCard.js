@@ -8,7 +8,7 @@ export const HomeSecondSectionCard = ({ image, title }) => {
         className="sectionSecondCardImage"
         style={{ backgroundImage: `url(${image})` }}
       ></div>
-      <h3 className="h3">{title}</h3>
+      <h3 className="h5">{title}</h3>
       <p className="p">
         Thank you for being valued customer. We are so grateful to serving for
         the honored be clients pleasure of serving hope we meets your’s

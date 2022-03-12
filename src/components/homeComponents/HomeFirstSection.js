@@ -2,18 +2,18 @@ import React from "react";
 import "../../styles/home/home-first-section.css";
 import "../../styles/simple-grid.css";
 import HomeFirstSectionCard from "./HomeFirstSectionCard";
-import sectionFirstBike from "../../Images/sectionFirstBike.png";
-import thumbLike from "../../Images/thumbLike.png";
-import eco from "../../Images/eco.png";
+import frontcard1 from "../../Images/frontcard1.png";
+import frontcard2 from "../../Images/frontcard2.png";
+import frontcard3 from "../../Images/frontcard3.png";
 
 const HomeFirstSection = () => {
   return (
     <>
       <div className="sectionFirstMain">
         <div className="sectionFirstContainer">
-          <HomeFirstSectionCard image={sectionFirstBike} />
-          <HomeFirstSectionCard image={thumbLike} />
-          <HomeFirstSectionCard image={eco} />
+          <HomeFirstSectionCard image={frontcard1} />
+          <HomeFirstSectionCard image={frontcard2} />
+          <HomeFirstSectionCard image={frontcard3} />
         </div>
       </div>
       <div className="sectionSecondHeading">

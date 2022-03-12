@@ -9,7 +9,7 @@
 }
 .sectionSecondCard {
   width: calc((100% / 3) - 12px);
-  height: 270px;
+  height: 310px;
   background-color: #232323;
 }
 
