@@ -1,0 +1,9 @@
+.restaurant_product_menu_section_container {
+  display: flex;
+}
+.restaurant_product_menu_section_container_menuList {
+  width: 65%;
+}
+.restaurant_product_menu_section_container_order {
+  width: 35%;
+}

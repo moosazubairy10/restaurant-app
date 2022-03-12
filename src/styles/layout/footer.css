@@ -1,0 +1,66 @@
+.footer {
+  background: #232323;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 26px;
+}
+
+.footerInnerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.footerInnerContainerColOne {
+}
+.footerIcons {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.footerInnerContainerColOneParagraph {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Raleway";
+  margin-top: 19px;
+  margin-bottom: 9px;
+}
+.footerInnerContainerColOneInfoLabel {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+.footerInnerContainerColOneInfoValue {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+.footerLinkTitle {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin-bottom: 22px;
+}
+.footerLink {
+  font-size: 16px;
+  line-height: 11px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+.footerLinkContainer {
+  margin: 10px 0;
+}
+.footer_copyright {
+  margin-top: 45px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 11px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Montserrat";
+}

@@ -1,0 +1,53 @@
+.restaurant_product_slider_container {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.swiper {
+  overflow: visible;
+}
+.swiper-slide {
+  background: #1d170c;
+  color: #ffcc01;
+  width: 72px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #ffcc00;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 100%;
+  position: absolute;
+  top: 50px;
+  z-index: 11;
+}
+.swiper-button-next {
+  right: 0;
+  margin-left: 10px;
+  background-image: url("../../../Images/icons/chevron-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+}
+.swiper-button-prev {
+  right: 50px;
+  margin-right: 10px;
+  background-image: url("../../../Images/icons/chevron-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  transform: rotate(180deg);
+}
+.swiper-button-disabled {
+  opacity: 0.3;
+}

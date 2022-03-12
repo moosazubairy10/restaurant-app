@@ -1,0 +1,83 @@
+.restaurant_product_menu_items {
+  display: flex;
+  flex-direction: column;
+}
+.restaurant_product_menu_item {
+}
+.restaurant_product_menu_item_title {
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  padding: 5px 0;
+  border-bottom: 4px solid #92723e;
+}
+.restaurant_product_menu_item_icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #b4b4b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant_product_menu_item_icons_beg {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #ffcc01;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  margin: 0;
+}
+.restaurant_product_menu_item_icons_section {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+.restaurant_product_menu_item_container {
+  display: flex;
+  margin: 40px 0;
+}
+.restaurant_product_menu_item_image {
+  width: 35%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.restaurant_product_menu_item_container_info {
+  margin-left: 50px;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.restaurant_product_menu_item_subTitle_container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.restaurant_product_menu_item_subTitle {
+  font-size: 23px;
+
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.restaurant_product_menu_item_price {
+  font-size: 30px;
+  margin-left: 20px;
+  color: #ffcc00;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.restaurant_product_menu_item_desc {
+  font-size: 17px;
+  color: #ffffff;
+
+  font-weight: 400;
+  font-family: "Montserrat";
+}

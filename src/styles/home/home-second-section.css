@@ -1,0 +1,20 @@
+.sectionSecond {
+  margin: 80px 0;
+}
+.sectionSecondContainer {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  justify-content: space-around;
+}
+.sectionSecondCard {
+  width: calc((100% / 3) - 12px);
+  height: 270px;
+  background-color: #232323;
+}
+
+.sectionSecondCardImage {
+  height: 140px;
+  background-position: center;
+  background-repeat: no-repeat;
+}

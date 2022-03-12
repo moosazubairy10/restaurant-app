@@ -1,0 +1,67 @@
+.login_page_container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login_form_container {
+  width: 380px;
+  height: 500px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+.login_form_container_title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.login_form {
+  width: 75%;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.loginFormInput {
+  height: 30px;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid #e3e1e1;
+}
+.login_form label {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 8px;
+  font-family: "Montserrat";
+}
+.login_form_btn {
+  height: 35px;
+  width: 102px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  border-radius: 5px;
+  border: 0;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.home_header_heading {
+  font-size: 50px;
+  margin: 0;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Swear Display";
+}
+.home_header_Paragraph {
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Montserrat";
+}

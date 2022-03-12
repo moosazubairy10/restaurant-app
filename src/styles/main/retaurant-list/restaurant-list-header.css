@@ -1,0 +1,31 @@
+.restaurant_list_header {
+  height: 400px;
+  background-image: url("../../../Images/restaurantListHeader.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.restaurant_list_header_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+.restaurant_list_header_container {
+  width: 600px;
+  height: 47px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.restaurant_list_header_container_link {
+  font-size: 18px;
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+}

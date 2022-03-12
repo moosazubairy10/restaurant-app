@@ -1,0 +1,21 @@
+.sectionFirstMain {
+  margin: 80px 0;
+}
+.sectionFirstContainer {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  justify-content: space-around;
+}
+.sectionOneCard {
+  width: calc((100% / 3) - 12px);
+  height: 370px;
+}
+.sectionOneCardImage {
+  height: 68%;
+  background-position: center;
+}
+.sectionSecondHeading {
+  margin: 0 auto;
+  width: 960px;
+}

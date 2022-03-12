@@ -1,0 +1,123 @@
+.profile_page {
+  min-height: 100vh;
+}
+.profile_container {
+  padding-top: 100px;
+}
+.profile_container_title_container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.profile_container_leftHeading {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Swear Display";
+}
+.profile_container_rightHeading {
+  font-size: 17px;
+  text-decoration: underline;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Swear Display";
+}
+.profile_innerContainer {
+  display: flex;
+  margin-top: 50px;
+}
+.profile_innerContainer > div {
+  width: 50%;
+}
+
+.profile_information_form {
+  color: white;
+  width: 90%;
+}
+.form_control_inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.profile_information_form_input_container {
+  width: 60%;
+  display: flex;
+}
+.profile_information_form_input {
+  width: 100%;
+  margin: 0 5px;
+  height: 35px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+}
+.profile_information_form label {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.profile_information_form_registerBtn {
+  width: 175px;
+  height: 35px;
+  margin-top: 50px;
+  margin-right: 5px;
+  background: #fff;
+  border: 0;
+  font-size: 17px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.profile_modify_form {
+  position: relative;
+  top: -20px;
+}
+.profile_modify_form_title {
+  margin-left: 34px;
+
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Swear Display";
+}
+.profile_modify_form_container {
+  padding: 5px 34px;
+  width: 60%;
+  margin-top: 5px;
+  border-left: 2px solid #535353;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin: 22px 0;
+}
+.profile_modify_form label {
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin-bottom: 8px;
+}
+.profile_modify_form_input {
+  width: 100%;
+  height: 35px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+}
+.inline_inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.inline_inputs > div:first-child {
+  width: 60%;
+  margin-right: 20px;
+}
+.profile_modify_form_warning {
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
