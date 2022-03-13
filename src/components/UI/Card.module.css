@@ -1,0 +1,16 @@
+.header {
+  color: white;
+  border-bottom: 4px solid #ffcc00;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.65rem;
+}
+.main {
+  background-color: #262626;
+  color: white;
+  padding: 1rem;
+}
+h4 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1rem;
+}

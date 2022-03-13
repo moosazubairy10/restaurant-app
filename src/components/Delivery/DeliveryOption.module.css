@@ -1,0 +1,52 @@
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.option img {
+  object-fit: contain;
+  height: 1.5rem;
+}
+.option p {
+  margin: 0 0 0 -2px;
+  font-size: 0.75rem;
+}
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+.formElements {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.checkbox input {
+  color: #707070;
+}
+
+.checkLabel {
+  font-size: 12px;
+  color: #ffffff;
+}
+.select {
+  padding: 0.7rem 1rem;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.deliveryTime {
+  display: flex;
+  gap: 1rem;
+}
+.selectLabel {
+  margin: 0 0 0.5rem 0;
+  font-size: 12px;
+  color: #ffffff;
+}

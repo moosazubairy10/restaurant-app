@@ -1,0 +1,26 @@
+.selectLabel1 {
+  margin: 0;
+  font-size: 12px;
+  color: #ffffff;
+}
+.selectLabel2 {
+  margin: 0 0 1rem 0;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.inputwrapper {
+  width: 100%;
+}
+.addgift {
+  display: flex;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .addgift {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

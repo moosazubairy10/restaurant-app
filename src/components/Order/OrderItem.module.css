@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  color: white;
+}
+.wrapper p {
+  margin: 0;
+  font-size: 12px;
+}
+.items {
+  width: 80%;
+  display: flex;
+  gap: 6px;
+}
+
+.counter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.counterIcons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0.75rem 0;
+  gap: 10px;
+}
+.counterIcons img {
+  cursor: pointer;
+}

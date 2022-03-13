@@ -11,6 +11,7 @@ const RestaurantProductRoute = React.lazy(() =>
 );
 const LoginRoute = React.lazy(() => import("./routes/auth/LoginRoute"));
 const ProfileRoute = React.lazy(() => import("./routes/profile/ProfileRoute"));
+const CheckoutRoute = React.lazy(() => import("./routes/checkout/CheckoutRoute"));
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           />
           <Route exact path="/login" element={<LoginRoute />} />
           <Route exact path="/profile" element={<ProfileRoute />} />
+          <Route exact path="/Checkout" element={<CheckoutRoute />} />
         </Routes>
       </Suspense>
     </div>

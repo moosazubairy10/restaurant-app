@@ -1,0 +1,37 @@
+.outerContainer {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+  /* height: 200px; */
+}
+.logo {
+  color: white;
+}
+.badge {
+  display: grid;
+  place-items: center;
+  right: -8px;
+  bottom: 24px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: #ffcc00;
+  height: 14px;
+  width: 14px;
+  z-index: 10;
+  font-size: x-small;
+}
+.menuItems {
+  display: flex;
+  gap: 3rem;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .menuItems {
+    display: flex;
+    gap: 1.5rem;
+    color: white;
+  }
+}
