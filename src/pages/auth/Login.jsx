@@ -2,7 +2,7 @@ import React from "react";
 import LoginFormComponent from "../../components/auth/login/LoginFormComponent";
 import Header from "../../components/header/Header";
 import Navbar from "../../components/layout/navbar/navbar";
-import bgImage from "../../Images/header.png";
+import bgImage from "../../Images/headerimg.png";
 
 const Login = () => {
   return (

@@ -5,9 +5,11 @@ import HomeFirstSection from "../../components/homeComponents/HomeFirstSection";
 import HomeSecondSection from "../../components/homeComponents/HomeSecondSection";
 import Navbar from "../../components/layout/navbar/navbar";
 import bgImage from "../../Images/headerimg.png";
+import "../../styles/homepage.css";
+
 const HomePage = () => {
   return (
-    <div >
+    <div  >
       <Header bgImage={bgImage}>
         <Navbar />
         <HeaderContainer />

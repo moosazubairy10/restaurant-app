@@ -8,7 +8,7 @@ import frontcard3 from "../../Images/frontcard3.png";
 
 const HomeFirstSection = () => {
   return (
-    <>
+    <div className="topContainer">
       <div className="sectionFirstMain">
         <div className="sectionFirstContainer">
           <HomeFirstSectionCard image={frontcard1} />
@@ -16,11 +16,11 @@ const HomeFirstSection = () => {
           <HomeFirstSectionCard image={frontcard3} />
         </div>
       </div>
-      <div className="sectionSecondHeading">
-        <h3 className="h3 font-swear-display">PROCESSUS SIMPLE</h3>
-        <h1 className="h2">Comment ça marche ?</h1>
+      <div className="HeadingBeforeSecond" style={{ position: 'inherit', marginTop: '10%' }}>
+        <h3 className="h3 font-swear-display" >PROCESSUS SIMPLE</h3>
+        <h1 className="h2" >Comment ça marche ?</h1>
       </div>
-    </>
+    </div>
   );
 };
 

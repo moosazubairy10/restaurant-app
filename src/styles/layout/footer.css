@@ -1,16 +1,19 @@
 .footer {
-  background: #232323;
+  background: #000000;
   color: white;
   padding-top: 40px;
   padding-bottom: 26px;
+  align-items: left;
 }
 
 .footerInnerContainer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: left;
+  margin-left: -40px;
 }
-.footerInnerContainerColOne {
-}
+
 .footerIcons {
   display: flex;
   width: 150px;
@@ -25,6 +28,7 @@
   margin-top: 19px;
   margin-bottom: 9px;
 }
+
 .footerInnerContainerColOneInfoLabel {
   font-size: 14px;
   color: #ffffff;

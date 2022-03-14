@@ -5,8 +5,8 @@
   align-items: center;
 }
 .login_form_container {
-  width: 380px;
-  height: 500px;
+  width: 500px;
+  height: 90vh;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
 }
 .login_form_container_title {
   margin-bottom: 20px;
-  font-size: 22px;
+  font-size: 26px;
   color: #000000;
   font-weight: 700;
   font-family: "Montserrat";
@@ -29,7 +29,7 @@
   margin: 20px 0;
 }
 .loginFormInput {
-  height: 30px;
+  height: 40px;
   outline: none;
   border-radius: 0;
   border: 1px solid #e3e1e1;
@@ -42,8 +42,8 @@
   font-family: "Montserrat";
 }
 .login_form_btn {
-  height: 35px;
-  width: 102px;
+  height: 50px;
+  width: 140px;
   font-size: 14px;
   font-weight: 700;
   font-family: "Montserrat";
