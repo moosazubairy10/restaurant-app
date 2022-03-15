@@ -7,19 +7,19 @@
   justify-content: space-between;
 }
 .restaurant_list_main_card {
-  height: 350px;
-  margin: 30px 0;
-  width: calc((100% / 3) - 25px);
+  height: 300px;
+  width: 100%;
 }
 .restaurant_list_main_card_image {
   height: 65%;
+  width:100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .restaurant_list_main_card_info {
   background-color: white;
-  height: 35%;
+  height: auto;
 }
 .restaurant_list_main_card_info_container {
   padding: 10px 18px;

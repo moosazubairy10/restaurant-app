@@ -1,18 +1,24 @@
 import React from "react";
 import "../../styles/home/home-first-section.css";
-import "../../styles/simple-grid.css";
+// import "../../styles/simple-grid.css";
 import HomeFirstSectionCard from "./HomeFirstSectionCard";
 import frontcard1 from "../../Images/frontcard1.png";
 import frontcard2 from "../../Images/frontcard2.png";
 import frontcard3 from "../../Images/frontcard3.png";
+import './first-section.css';
+
 
 const HomeFirstSection = () => {
   return (
-    <div className="topContainer">
-      <div className="sectionFirstMain">
-        <div className="sectionFirstContainer">
+    <div className="topContainer" style={{ width: '99%', justifyContent: 'center', alignItems: 'center' }}>
+      <div className="columns" style={{ width: '90%', }} >
+        <div className="column" >
           <HomeFirstSectionCard image={frontcard1} />
+        </div>
+        <div className="column">
           <HomeFirstSectionCard image={frontcard2} />
+        </div>
+        <div className="column">
           <HomeFirstSectionCard image={frontcard3} />
         </div>
       </div>
