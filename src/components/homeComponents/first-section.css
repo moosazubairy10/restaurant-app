@@ -13,6 +13,16 @@
   width: 500px;
   transition: 0.3s;
 }
+
+.columnslider{
+  flex: 1;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 2px;
+  padding: 10px;
+  background: #000000;
+  width: 100%;
+  transition: 0.3s;
+}
 .column:first-child{
   margin-left:0;
   background: black;
@@ -42,3 +52,4 @@
   }
   
 }
+
